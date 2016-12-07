@@ -9,4 +9,4 @@ before_script:
   - mkdir build
   - cd build
   - cmake --version
-script: make && ./main
+script: make && ./a.out
