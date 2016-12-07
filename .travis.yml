@@ -6,7 +6,5 @@ compiler:
 sudo: required
 dist: trusty
 before_script:
-  - mkdir build
-  - cd build
-  - cmake --version
+
 script: make && ./main
